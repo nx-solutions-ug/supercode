@@ -1,6 +1,7 @@
 ---
 name: troubleshoot
 description: Troubleshoot command for debugging, error diagnosis, and problem resolution
+agent: root-cause-analyst
 ---
 
 # /troubleshoot $ARGUMENTS

@@ -1,4 +1,4 @@
-# chrome-devtools MCP Server
+# Chrome Devtools MCP Server
 
 **Purpose**: Chrome DevTools Protocol integration for browser automation, performance profiling, and detailed browser control
 

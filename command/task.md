@@ -1,6 +1,7 @@
 ---
 name: task
 description: Task command for task management, project planning, and workflow organization
+agent: orchestrator
 ---
 
 # /task $ARGUMENTS

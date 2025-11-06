@@ -23,8 +23,8 @@ Get SuperCode running in minutes with these simple steps:
 
 ```bash
 # Clone SuperCode framework
-git clone https://github.com/niklasschaeffer/supercode-revised.git
-cd supercode-revised
+git clone https://github.com/nx-solutions-ug/supercode.git
+cd supercode
 
 # Install dependencies
 npm install
@@ -218,7 +218,7 @@ Standardized templates for consistency:
 SuperCode follows **modular architecture principles**:
 
 ```
-supercode-revised/
+supercode/
 ├── agent/              # Agent definitions and configurations
 ├── command/            # Command implementations
 ├── templates/          # Standardized templates
@@ -366,8 +366,8 @@ The `/initialize` command establishes this dual MCP foundation by:
 
 ```bash
 # Clone for development
-git clone https://github.com/niklasschaeffer/supercode-revised.git
-cd supercode-revised
+git clone https://github.com/nx-solutions-ug/supercode.git
+cd supercode
 
 # Install development dependencies
 npm install
@@ -385,7 +385,7 @@ npm run supercode:init .
 ### Project Structure
 
 ```
-supercode-revised/
+supercode/
 ├── agent/                  # Agent definitions
 │   ├── orchestrator.md     # Primary coordination agent
 │   ├── context-gathering.md
@@ -478,7 +478,7 @@ We welcome contributions! Here's how to get started:
 
 ```bash
 # Fork and clone
-git clone https://github.com/niklasschaeffer/supercode-revised.git
+git clone https://github.com/nx-solutions-ug/supercode.git
 
 # Create feature branch
 git checkout -b feature/amazing-feature
@@ -535,8 +535,8 @@ This project is licensed under **MIT License** - see the [LICENSE](LICENSE) file
 ### Getting Help
 
 - **Documentation** - Check this README and generated docs
-- **Issues** - [GitHub Issues](https://github.com/niklasschaeffer/supercode-revised/issues)
-- **Discussions** - [GitHub Discussions](https://github.com/niklasschaeffer/supercode-revised/discussions)
+- **Issues** - [GitHub Issues](https://github.com/nx-solutions-ug/supercode/issues)
+- **Discussions** - [GitHub Discussions](https://github.com/nx-solutions-ug/supercode/discussions)
 
 ### Quick Commands for Help
 
@@ -561,8 +561,8 @@ This project is licensed under **MIT License** - see the [LICENSE](LICENSE) file
 **Get started now:**
 
 ```bash
-git clone https://github.com/niklasschaeffer/supercode-revised.git
-cd supercode-revised
+git clone https://github.com/nx-solutions-ug/supercode.git
+cd supercode
 npm install
 npm run supercode:init ${YOUR_PROJECT_FOLDER}
 /load

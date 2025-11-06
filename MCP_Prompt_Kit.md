@@ -1,4 +1,4 @@
-# prompt-kit MCP Server
+# Prompt Kit MCP Server
 
 **Purpose**: Registry-style prompt management and reusable prompt patterns for consistent AI interactions
 

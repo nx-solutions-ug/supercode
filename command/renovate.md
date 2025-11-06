@@ -1,6 +1,7 @@
 ---
 name: renovate
 description: Renovate command for project updates, dependency management, and modernization
+agent: renovator
 ---
 
 # /renovate $ARGUMENTS

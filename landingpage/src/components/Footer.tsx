@@ -23,7 +23,7 @@ export function Footer() {
                 </p>
                 <div className="flex space-x-2">
                   <Button size="sm" variant="ghost" asChild>
-                    <a href="https://github.com/niklasschaeffer/supercode-revised" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/nx-solutions-ug/supercode" target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4" />
                     </a>
                   </Button>
@@ -69,17 +69,17 @@ export function Footer() {
                 <h3 className="font-semibold">Community</h3>
                 <ul className="space-y-2 text-sm text-slate-400">
                   <li>
-                    <a href="https://github.com/niklasschaeffer/supercode-revised/discussions" className="hover:text-slate-100 transition-colors">
+                    <a href="https://github.com/nx-solutions-ug/supercode/discussions" className="hover:text-slate-100 transition-colors">
                       Discussions
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/niklasschaeffer/supercode-revised/issues" className="hover:text-slate-100 transition-colors">
+                    <a href="https://github.com/nx-solutions-ug/supercode/issues" className="hover:text-slate-100 transition-colors">
                       Issues
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/niklasschaeffer/supercode-revised?tab=readme-ov-file#-contributing" className="hover:text-slate-100 transition-colors">
+                    <a href="https://github.com/nx-solutions-ug/supercode?tab=readme-ov-file#-contributing" className="hover:text-slate-100 transition-colors">
                       Contributing
                     </a>
                   </li>
@@ -113,7 +113,7 @@ export function Footer() {
                 <a href="https://nx-solutions.de/imprint" className="hover:text-slate-100 transition-colors">
                   Imprint
                 </a>
-                <a href="https://github.com/niklasschaeffer/supercode-revised/blob/main/LICENSE" className="hover:text-slate-100 transition-colors">
+                <a href="https://github.com/nx-solutions-ug/supercode/blob/main/LICENSE" className="hover:text-slate-100 transition-colors">
                   License
                 </a>
               </div>

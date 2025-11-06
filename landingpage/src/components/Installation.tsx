@@ -8,7 +8,7 @@ import { MCP_SERVERS } from '@/utils/constants'
 
 export function Installation() {
   const installCode = `# Clone the repository
-git clone https://github.com/niklasschaeffer/supercode-revised.git
+git clone https://github.com/nx-solutions-ug/supercode.git
 cd supercode
 
 # Install dependencies
@@ -59,7 +59,7 @@ npm run supercode:init`
                 <CodeBlock code={installCode} language="bash" />
                 <div className="mt-4 flex gap-2">
                   <Button size="sm" variant="outline" asChild>
-                    <a href="https://github.com/niklasschaeffer/supercode-revised" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/nx-solutions-ug/supercode" target="_blank" rel="noopener noreferrer">
                       <Download className="h-4 w-4 mr-2" />
                       Download
                     </a>

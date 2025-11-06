@@ -1,4 +1,4 @@
-# MCP_Memory_Bank MCP Server
+# Memory Bank MCP Server
 
 **Purpose**: Remote memory bank management for AI assistants with multi-project support and structured file organization
 
@@ -62,7 +62,7 @@ list_project_files({
 
 ```
 // Storage structure examples:
-/.memory/
+/.memories/
 ├── project-alpha/
 │   ├── projectbrief.md      # Core requirements/goals
 │   ├── productContext.md    # Problem context/solutions  

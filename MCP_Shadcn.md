@@ -1,4 +1,4 @@
-# shadcn MCP Server
+# Shadcn MCP Server
 
 **Purpose**: shadcn/ui component registry integration for modern UI development with design system consistency
 

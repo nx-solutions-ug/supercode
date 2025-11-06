@@ -69,6 +69,7 @@ Example:
 - Retrieve and apply framework-specific best practices using Context7 documentation
 - Map existing codebase structure and extract meaningful patterns and relationships
 - Validate memory system integration and ensure cross-session knowledge retention
+- Will read the .serena/memories folder if it exists and synthesized into the Memory Bank, Knowledge Graph
 
 ### MCP Integration Examples
 ```

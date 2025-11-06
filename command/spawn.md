@@ -1,6 +1,7 @@
 ---
 name: spawn
 description: Spawn command for agent creation, task delegation, and workflow orchestration
+agent: orchestrator
 ---
 
 # /spawn $ARGUMENTS

@@ -1,6 +1,7 @@
 ---
 name: load
 description: Load command for context loading, memory retrieval, and project state restoration
+agent: orchestrator
 ---
 
 # /load $ARGUMENTS

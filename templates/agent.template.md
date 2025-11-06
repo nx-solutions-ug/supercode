@@ -21,6 +21,12 @@ tools: # tools are defined with true or false values. if the agent is allowed to
 
 # ${Agent-name} - ${Functional-Description}
 
+```
+Is this a new conversation? Prioritize context-gathering first.
+Have you got a specific task from the orchestrator ? Continue.
+Have you just received a summarization not specifically by the orchestrator ? Prioritize context-gathering first.
+```
+
 You are the ${Agent-name}. <!-- Describe role here -->
 
 ## Important File References

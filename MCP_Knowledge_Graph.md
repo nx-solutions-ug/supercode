@@ -1,4 +1,4 @@
-# MCP_Knowledge_Graph MCP Server
+# Knowledge Graph MCP Server
 
 **Purpose**: Persistent memory for AI models through a local knowledge graph using entities, relations, and observations
 
@@ -58,22 +58,22 @@ aim_list_databases() // Returns: {"project_databases": ["default"], "global_data
 ```
 
 ## File Storage
-- Stores knowledge graphs in JSONL format with `.memory` directory structure for organization
+- Stores knowledge graphs in JSONL format with `./.aim` directory structure for organization
 - Master database (`memory.jsonl`) serves as primary storage, always available by default
 - Named databases (`memory-work.jsonl`, `memory-personal.jsonl`) for contextual organization
-- Project-local storage in `.memory/` directories when detected, otherwise global configured directory
+- Project-local storage in `./.aim` directories when detected, otherwise global configured directory
 - Built-in safety system with `{"type":"_aim","source":"mcp-knowledge-graph"}` markers to prevent accidental overwrites
 
 ```
 // Storage examples:
-Global: /Users/username/.config/opencode/memory/memory.jsonl (master database)
-Project: my-project/.memory/memory.jsonl (project-local master)
-Context: /Users/username/.config/opencode/memory/memory-work.jsonl (work context)
+Global: /Users/username/.config/opencode/.aim/memory.jsonl (master database)
+Project: $CWD/.aim/memory.jsonl (project-local master)
+Context: /Users/username/.config/opencode/.aim/memory-work.jsonl (work context)
 ```
 
 ## Accessibility
 - Direct file system access for reading and writing JSONL knowledge graph files
-- Automatic project detection using `.memory` directory presence for local vs global storage
+- Automatic project detection using `.aim` directory presence for local vs global storage
 - Multi-database support with context parameter for organizing different knowledge domains
 - Safety validation system preventing writes to non-AIM files to protect data integrity
 - Cross-platform compatibility supporting Windows, macOS, and Linux file systems

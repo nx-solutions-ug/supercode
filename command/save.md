@@ -1,6 +1,7 @@
 ---
 name: save
 description: Save command for state persistence, context storage, and memory management
+agent: orchestrator
 ---
 
 # /save $ARGUMENTS

@@ -1,6 +1,7 @@
 ---
 name: cleanup
 description: Cleanup command for project maintenance, dependency management, and resource optimization
+agent: git-specialist
 ---
 
 # /cleanup $ARGUMENTS
