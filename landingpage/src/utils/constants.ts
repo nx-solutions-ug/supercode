@@ -165,7 +165,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { label: 'Commands', href: '#commands' },
   { label: 'Workflow', href: '#workflow' },
   { label: 'Installation', href: '#installation' },
-  { label: 'GitHub', href: 'https://github.com/niklasschaeffer/supercode-revised', external: true }
+  { label: 'GitHub', href: 'https://github.com/nx-solutions-ug/supercode', external: true }
 ]
 
 export const COMMANDS: Command[] = [
